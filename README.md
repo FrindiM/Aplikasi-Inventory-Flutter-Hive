@@ -109,14 +109,6 @@ flutter pub get
 
 ---
 
-## ✨ Kontribusi
-
-1. Fork repository ini.
-2. Buat branch baru dengan fitur yang ingin ditambahkan.
-3. Push ke branch tersebut.
-4. Buat pull request.
-
----
 
 ## 📄 Lisensi
 
