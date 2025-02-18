@@ -67,37 +67,6 @@ flutter run
 
 ---
 
-## 🗂️ Setup Hive
-
-1️⃣ Inisialisasi Hive di `main.dart`:
-
-```dart
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Hive.initFlutter();
-  Hive.registerAdapter(ItemModelAdapter());
-  runApp(MyApp());
-}
-```
-
-2️⃣ Buat model Hive:
-
-```dart
-@HiveType(typeId: 0)
-class ItemModel {
-  @HiveField(0)
-  String name;
-
-  @HiveField(1)
-  int quantity;
-
-  @HiveField(2)
-  String category;
-}
-```
-
----
-
 ## 🐞 Troubleshooting
 
 Jika ada masalah saat menjalankan aplikasi:
@@ -106,13 +75,6 @@ Jika ada masalah saat menjalankan aplikasi:
 flutter clean
 flutter pub get
 ```
-
----
-
-
-## 📄 Lisensi
-
-Proyek ini menggunakan lisensi MIT. Silakan lihat file `LICENSE` untuk detail lebih lanjut.
 
 ---
 
